@@ -1,0 +1,20 @@
+<h1 class="itFont text-center">Our menu</h1>
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let product of products; let i=index">
+        <div class="card h-100">
+            <img src="{{product.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{product.name}}</h5>
+                <div class="buttons" *ngIf="product.availability">
+                    <a class="btn btn-primary me-2" routerLink="/menu/{{i}}">Details</a>
+                    <div class="btn btn-success" (click)="addToCart(product)">Add to cart</div>
+                </div>
+                <div *ngIf="!product.availability">Sorry, we're out of this product.</div>
+            </div>
+        </div>
+    </div>
+
+</div>

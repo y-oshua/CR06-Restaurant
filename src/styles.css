@@ -1,0 +1,52 @@
+.ravBrand   {
+    height: 2rem;
+    width:auto;
+}
+
+.itFont {
+    margin-top: 2rem;
+    font-family: 'Lobster', cursive;
+    }
+
+.hero    {
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
+    height: 60vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("assets/img/table.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+#freshPasta img {
+    max-width:90%;
+}
+
+
+.productDetails {
+    margin:0 auto;
+    width:50%;
+    height:auto;
+}
+
+.productDetails img{
+    max-width:100%;
+}
+
+.checkoutItems  {
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.checkoutBill  {
+    line-height: 1rem;
+}
+
+.checkoutForm label, input, button{
+    margin:.5rem;
+}
