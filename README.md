@@ -1,6 +1,4 @@
-This project consists of a landing page and a reviews page. Plain HTML, CSS, and JS were used.
-
-To view the pages simply clone this repo then open index.html / reviews.html into your browser.
+To view the pages simply clone this repo and then follow the auto-generated instructions below, starting on line 10.
 
 This project was done as a solution to a end of the week project during my fullstack course at code factory.
 
@@ -8,7 +6,6 @@ Please view the assignment.pdf to view the expected results.
 
 Cheers!
 
-# 02.25SixthReview
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
